@@ -28,8 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(bookPopUp));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.iutPB = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.fbefctPB = new System.Windows.Forms.PictureBox();
+            this.javaPB = new System.Windows.Forms.PictureBox();
+            this.msgPB = new System.Windows.Forms.PictureBox();
+            this.doglapanPB = new System.Windows.Forms.PictureBox();
+            this.bsnsPB = new System.Windows.Forms.PictureBox();
+            this.ahbanPB = new System.Windows.Forms.PictureBox();
+            this.dopadetoxPB = new System.Windows.Forms.PictureBox();
+            this.statupHpb = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.iutPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fbefctPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.javaPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.msgPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doglapanPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bsnsPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ahbanPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dopadetoxPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.statupHpb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -43,19 +74,231 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Back";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Green;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(677, 473);
+            this.button2.Location = new System.Drawing.Point(419, 379);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 47);
+            this.button2.Size = new System.Drawing.Size(122, 40);
             this.button2.TabIndex = 1;
             this.button2.Text = "Add To Cart";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // iutPB
+            // 
+            this.iutPB.Image = ((System.Drawing.Image)(resources.GetObject("iutPB.Image")));
+            this.iutPB.Location = new System.Drawing.Point(53, 107);
+            this.iutPB.Name = "iutPB";
+            this.iutPB.Size = new System.Drawing.Size(226, 261);
+            this.iutPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.iutPB.TabIndex = 2;
+            this.iutPB.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(300, 122);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(90, 25);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Name   : ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(301, 195);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(90, 24);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Author  : ";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(301, 256);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(92, 24);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Price      : ";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.Window;
+            this.button3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(417, 322);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(38, 34);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "-";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.Window;
+            this.button4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(503, 322);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(38, 34);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "+";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(457, 321);
+            this.textBox1.MaxLength = 10;
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(38, 34);
+            this.textBox1.TabIndex = 8;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(301, 325);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(105, 24);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Quantity  : ";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(413, 123);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(61, 24);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "label5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(415, 195);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(61, 24);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "label6";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(415, 256);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(61, 24);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "label7";
+            // 
+            // fbefctPB
+            // 
+            this.fbefctPB.Image = ((System.Drawing.Image)(resources.GetObject("fbefctPB.Image")));
+            this.fbefctPB.Location = new System.Drawing.Point(53, 107);
+            this.fbefctPB.Name = "fbefctPB";
+            this.fbefctPB.Size = new System.Drawing.Size(226, 261);
+            this.fbefctPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.fbefctPB.TabIndex = 13;
+            this.fbefctPB.TabStop = false;
+            // 
+            // javaPB
+            // 
+            this.javaPB.Image = ((System.Drawing.Image)(resources.GetObject("javaPB.Image")));
+            this.javaPB.Location = new System.Drawing.Point(53, 107);
+            this.javaPB.Name = "javaPB";
+            this.javaPB.Size = new System.Drawing.Size(226, 261);
+            this.javaPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.javaPB.TabIndex = 14;
+            this.javaPB.TabStop = false;
+            // 
+            // msgPB
+            // 
+            this.msgPB.Image = ((System.Drawing.Image)(resources.GetObject("msgPB.Image")));
+            this.msgPB.Location = new System.Drawing.Point(53, 107);
+            this.msgPB.Name = "msgPB";
+            this.msgPB.Size = new System.Drawing.Size(226, 261);
+            this.msgPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.msgPB.TabIndex = 15;
+            this.msgPB.TabStop = false;
+            // 
+            // doglapanPB
+            // 
+            this.doglapanPB.Image = ((System.Drawing.Image)(resources.GetObject("doglapanPB.Image")));
+            this.doglapanPB.Location = new System.Drawing.Point(53, 107);
+            this.doglapanPB.Name = "doglapanPB";
+            this.doglapanPB.Size = new System.Drawing.Size(226, 261);
+            this.doglapanPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.doglapanPB.TabIndex = 16;
+            this.doglapanPB.TabStop = false;
+            // 
+            // bsnsPB
+            // 
+            this.bsnsPB.Image = ((System.Drawing.Image)(resources.GetObject("bsnsPB.Image")));
+            this.bsnsPB.Location = new System.Drawing.Point(53, 107);
+            this.bsnsPB.Name = "bsnsPB";
+            this.bsnsPB.Size = new System.Drawing.Size(226, 261);
+            this.bsnsPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bsnsPB.TabIndex = 17;
+            this.bsnsPB.TabStop = false;
+            // 
+            // ahbanPB
+            // 
+            this.ahbanPB.Image = ((System.Drawing.Image)(resources.GetObject("ahbanPB.Image")));
+            this.ahbanPB.Location = new System.Drawing.Point(53, 107);
+            this.ahbanPB.Name = "ahbanPB";
+            this.ahbanPB.Size = new System.Drawing.Size(226, 261);
+            this.ahbanPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ahbanPB.TabIndex = 18;
+            this.ahbanPB.TabStop = false;
+            // 
+            // dopadetoxPB
+            // 
+            this.dopadetoxPB.Image = ((System.Drawing.Image)(resources.GetObject("dopadetoxPB.Image")));
+            this.dopadetoxPB.Location = new System.Drawing.Point(53, 107);
+            this.dopadetoxPB.Name = "dopadetoxPB";
+            this.dopadetoxPB.Size = new System.Drawing.Size(226, 261);
+            this.dopadetoxPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.dopadetoxPB.TabIndex = 19;
+            this.dopadetoxPB.TabStop = false;
+            // 
+            // statupHpb
+            // 
+            this.statupHpb.Image = ((System.Drawing.Image)(resources.GetObject("statupHpb.Image")));
+            this.statupHpb.Location = new System.Drawing.Point(53, 107);
+            this.statupHpb.Name = "statupHpb";
+            this.statupHpb.Size = new System.Drawing.Size(226, 261);
+            this.statupHpb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.statupHpb.TabIndex = 20;
+            this.statupHpb.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(1507, 19);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(226, 261);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 21;
+            this.pictureBox10.TabStop = false;
             // 
             // bookPopUp
             // 
@@ -63,13 +306,44 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(25)))));
             this.ClientSize = new System.Drawing.Size(798, 525);
+            this.Controls.Add(this.pictureBox10);
+            this.Controls.Add(this.statupHpb);
+            this.Controls.Add(this.dopadetoxPB);
+            this.Controls.Add(this.ahbanPB);
+            this.Controls.Add(this.bsnsPB);
+            this.Controls.Add(this.doglapanPB);
+            this.Controls.Add(this.msgPB);
+            this.Controls.Add(this.javaPB);
+            this.Controls.Add(this.fbefctPB);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.iutPB);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "bookPopUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "bookPopUp";
             this.Load += new System.EventHandler(this.bookPopUp_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.iutPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fbefctPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.javaPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.msgPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doglapanPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bsnsPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ahbanPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dopadetoxPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.statupHpb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -77,5 +351,25 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox iutPB;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox fbefctPB;
+        private System.Windows.Forms.PictureBox javaPB;
+        private System.Windows.Forms.PictureBox msgPB;
+        private System.Windows.Forms.PictureBox doglapanPB;
+        private System.Windows.Forms.PictureBox bsnsPB;
+        private System.Windows.Forms.PictureBox ahbanPB;
+        private System.Windows.Forms.PictureBox dopadetoxPB;
+        private System.Windows.Forms.PictureBox statupHpb;
+        private System.Windows.Forms.PictureBox pictureBox10;
     }
 }

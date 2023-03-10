@@ -13,6 +13,7 @@ namespace Project_Shomahar
 {
     public partial class firstForm : Form
     {
+        public static string bookName, bookprice;
         public firstForm()
         {
             InitializeComponent();
@@ -33,6 +34,7 @@ namespace Project_Shomahar
             label10.Hide();
             radioButton1.Checked = true;
 
+            bookName = label5.Text = "DOGLAPAN" ;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -307,7 +309,7 @@ namespace Project_Shomahar
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            progressBar1.Increment(1);
+           /* progressBar1.Increment(1);
             if (progressBar1.Value == 5)
             {
                radioButton2.Checked = true;
@@ -387,7 +389,7 @@ namespace Project_Shomahar
             if (progressBar1.Value == 100)
             {
                 radioButton3.Checked = true;
-            }
+            }*/
         }
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -397,7 +399,8 @@ namespace Project_Shomahar
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-
+            bookPopUp abc = new bookPopUp();
+            abc.ShowDialog();
         }
 
         private void label24_Click(object sender, EventArgs e)
@@ -408,6 +411,77 @@ namespace Project_Shomahar
         private void dataGridView14_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            bookPopUp abc = new bookPopUp();
+            abc.ShowDialog();
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            bookPopUp abc = new bookPopUp();
+            abc.ShowDialog();
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            bookPopUp abc = new bookPopUp();
+            abc.ShowDialog();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            bookPopUp abc = new bookPopUp();
+            abc.ShowDialog();
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            bookPopUp abc = new bookPopUp();
+            abc.ShowDialog();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            bookPopUp abc = new bookPopUp();
+            abc.ShowDialog();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            bookPopUp abc = new bookPopUp();
+            abc.ShowDialog();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            bookPopUp abc = new bookPopUp();
+            abc.ShowDialog();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            bookPopUp abc = new bookPopUp();
+            abc.ShowDialog();
+        }
+
+        private void dataGridView2_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label36_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=XwUAxv9jDds");
+            //System.Diagnostics.Process.Start("https://i.ytimg.com/vi/4S89wxmtWRE/hqdefault.jpg");
+        }
+
+        private void label5_Click_1(object sender, EventArgs e)
+        {
+            bookPopUp abc = new bookPopUp();
+            abc.ShowDialog();
         }
     }
 }
