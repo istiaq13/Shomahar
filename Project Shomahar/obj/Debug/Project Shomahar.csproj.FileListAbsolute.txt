@@ -1,0 +1,23 @@
+D:\Codes\C#\Project Shomahar\Project Shomahar\bin\Debug\Project Shomahar.exe.config
+D:\Codes\C#\Project Shomahar\Project Shomahar\bin\Debug\Project Shomahar.exe
+D:\Codes\C#\Project Shomahar\Project Shomahar\bin\Debug\Project Shomahar.pdb
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project Shomahar.csproj.AssemblyReference.cache
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project Shomahar.csproj.SuggestedBindingRedirects.cache
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.Properties.Resources.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project Shomahar.csproj.GenerateResource.cache
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project Shomahar.csproj.CoreCompileInputs.cache
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project Shomahar.exe
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project Shomahar.pdb
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.Form1.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.loginForm.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.crtAccForm.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.firstForm.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.forgetPassForm.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.browseForm.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.cartForm.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.oderHistoryForm.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.profileForm.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.settingForm.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.wishlistForm.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.Form2.resources
+D:\Codes\C#\Project Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.bookPopUp.resources
