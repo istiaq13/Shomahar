@@ -184,9 +184,8 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(413, 123);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 24);
+            this.label5.Size = new System.Drawing.Size(0, 24);
             this.label5.TabIndex = 10;
-            this.label5.Text = "label5";
             // 
             // label6
             // 
@@ -195,9 +194,8 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(415, 195);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 24);
+            this.label6.Size = new System.Drawing.Size(0, 24);
             this.label6.TabIndex = 11;
-            this.label6.Text = "label6";
             // 
             // label7
             // 

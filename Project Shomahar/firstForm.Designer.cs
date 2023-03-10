@@ -107,6 +107,11 @@
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
@@ -209,11 +214,11 @@
             // 
             this.CartLabel.AutoSize = true;
             this.CartLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CartLabel.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CartLabel.Font = new System.Drawing.Font("Microsoft YaHei", 10.3F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CartLabel.ForeColor = System.Drawing.Color.Gray;
-            this.CartLabel.Location = new System.Drawing.Point(949, 35);
+            this.CartLabel.Location = new System.Drawing.Point(960, 35);
             this.CartLabel.Name = "CartLabel";
-            this.CartLabel.Size = new System.Drawing.Size(45, 24);
+            this.CartLabel.Size = new System.Drawing.Size(49, 25);
             this.CartLabel.TabIndex = 5;
             this.CartLabel.Text = "Cart";
             this.CartLabel.Click += new System.EventHandler(this.CartLabel_Click);
@@ -479,11 +484,11 @@
             // 
             this.dataGridView9.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(29)))));
             this.dataGridView9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView9.Location = new System.Drawing.Point(1033, 9);
+            this.dataGridView9.Location = new System.Drawing.Point(1038, 0);
             this.dataGridView9.Name = "dataGridView9";
             this.dataGridView9.RowHeadersWidth = 51;
             this.dataGridView9.RowTemplate.Height = 24;
-            this.dataGridView9.Size = new System.Drawing.Size(10, 112);
+            this.dataGridView9.Size = new System.Drawing.Size(10, 134);
             this.dataGridView9.TabIndex = 33;
             this.dataGridView9.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView9_CellContentClick);
             // 
@@ -722,11 +727,11 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft YaHei", 7.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(669, 467);
+            this.label15.Location = new System.Drawing.Point(660, 469);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(113, 19);
+            this.label15.Size = new System.Drawing.Size(122, 19);
             this.label15.TabIndex = 53;
             this.label15.Text = "বিজনেস ব্লুপ্রিন্ট";
             // 
@@ -777,11 +782,11 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft YaHei", 7.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(836, 465);
+            this.label21.Location = new System.Drawing.Point(830, 469);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(110, 19);
+            this.label21.Size = new System.Drawing.Size(118, 19);
             this.label21.TabIndex = 58;
             this.label21.Text = "ডোপামিন ডিটক্স";
             // 
@@ -925,7 +930,7 @@
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(572, 518);
+            this.label26.Location = new System.Drawing.Point(559, 515);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(56, 22);
             this.label26.TabIndex = 71;
@@ -936,7 +941,7 @@
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(742, 518);
+            this.label27.Location = new System.Drawing.Point(733, 515);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(56, 22);
             this.label27.TabIndex = 72;
@@ -947,7 +952,7 @@
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(1237, 518);
+            this.label28.Location = new System.Drawing.Point(1227, 512);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(56, 22);
             this.label28.TabIndex = 73;
@@ -991,7 +996,7 @@
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(1075, 518);
+            this.label32.Location = new System.Drawing.Point(1065, 514);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(56, 22);
             this.label32.TabIndex = 77;
@@ -1024,7 +1029,7 @@
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(908, 518);
+            this.label35.Location = new System.Drawing.Point(892, 516);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(56, 22);
             this.label35.TabIndex = 80;
@@ -1043,6 +1048,68 @@
             this.label36.TabIndex = 81;
             this.label36.Text = "Feature Your Book On Shomahar Now";
             this.label36.Click += new System.EventHandler(this.label36_Click);
+            this.label36.MouseLeave += new System.EventHandler(this.label36_MouseLeave);
+            this.label36.MouseHover += new System.EventHandler(this.label36_MouseHover);
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.RoyalBlue;
+            this.label37.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.White;
+            this.label37.Location = new System.Drawing.Point(487, 516);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(40, 19);
+            this.label37.TabIndex = 82;
+            this.label37.Text = "৫০%";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.Crimson;
+            this.label38.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.Color.White;
+            this.label38.Location = new System.Drawing.Point(660, 515);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(39, 19);
+            this.label38.TabIndex = 83;
+            this.label38.Text = "৪০%";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label39.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.White;
+            this.label39.Location = new System.Drawing.Point(830, 516);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(41, 19);
+            this.label39.TabIndex = 84;
+            this.label39.Text = "৬০%";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.DarkViolet;
+            this.label40.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.Color.White;
+            this.label40.Location = new System.Drawing.Point(996, 515);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(39, 19);
+            this.label40.TabIndex = 85;
+            this.label40.Text = "৪০%";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.BackColor = System.Drawing.Color.MediumVioletRed;
+            this.label41.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.Color.White;
+            this.label41.Location = new System.Drawing.Point(1156, 514);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(40, 19);
+            this.label41.TabIndex = 86;
+            this.label41.Text = "৪৫%";
             // 
             // firstForm
             // 
@@ -1050,6 +1117,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(25)))));
             this.ClientSize = new System.Drawing.Size(1300, 803);
+            this.Controls.Add(this.label41);
+            this.Controls.Add(this.label40);
+            this.Controls.Add(this.label39);
+            this.Controls.Add(this.label38);
+            this.Controls.Add(this.label37);
             this.Controls.Add(this.label36);
             this.Controls.Add(this.label35);
             this.Controls.Add(this.label34);
@@ -1086,7 +1158,6 @@
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.dataGridView10);
-            this.Controls.Add(this.dataGridView9);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.radioButton3);
@@ -1126,6 +1197,7 @@
             this.Controls.Add(this.dataGridView12);
             this.Controls.Add(this.dataGridView16);
             this.Controls.Add(this.dataGridView4);
+            this.Controls.Add(this.dataGridView9);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -1250,5 +1322,10 @@
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label41;
     }
 }

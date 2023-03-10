@@ -13,7 +13,7 @@ namespace Project_Shomahar
 {
     public partial class firstForm : Form
     {
-        public static string bookName, bookprice;
+        public static string bookName, bookID;
         public firstForm()
         {
             InitializeComponent();
@@ -33,8 +33,6 @@ namespace Project_Shomahar
             label9.Hide();
             label10.Hide();
             radioButton1.Checked = true;
-
-            bookName = label5.Text = "DOGLAPAN" ;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -441,12 +439,16 @@ namespace Project_Shomahar
         {
             bookPopUp abc = new bookPopUp();
             abc.ShowDialog();
+            bookID = "a";
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             bookPopUp abc = new bookPopUp();
             abc.ShowDialog();
+
+            bookName = label22.Text = "MESSAGE";
+            bookID = "b";
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -476,6 +478,21 @@ namespace Project_Shomahar
         {
             System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=XwUAxv9jDds");
             //System.Diagnostics.Process.Start("https://i.ytimg.com/vi/4S89wxmtWRE/hqdefault.jpg");
+        }
+
+        private void label36_MouseHover(object sender, EventArgs e)
+        {
+            label36.ForeColor = Color.LawnGreen;
+        }
+
+        private void label36_MouseLeave(object sender, EventArgs e)
+        {
+            label36.ForeColor = Color.Lavender;
+        }
+
+        private void dataGridView17_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
         private void label5_Click_1(object sender, EventArgs e)
