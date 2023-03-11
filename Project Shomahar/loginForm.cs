@@ -43,9 +43,10 @@ namespace Project_Shomahar
 
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             firstForm abc = new firstForm();
             abc.ShowDialog();
+            this.Hide();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

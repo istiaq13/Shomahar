@@ -79,7 +79,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.gotwishPB = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -112,6 +112,17 @@
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
+            this.javawishPB = new System.Windows.Forms.PictureBox();
+            this.bsnswishPB = new System.Windows.Forms.PictureBox();
+            this.ahbanwishPB = new System.Windows.Forms.PictureBox();
+            this.fbeffectwishPB = new System.Windows.Forms.PictureBox();
+            this.msgwishPB = new System.Windows.Forms.PictureBox();
+            this.doglapanwishPB = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.iutwishPB = new System.Windows.Forms.PictureBox();
+            this.dopadetoxwishPB = new System.Windows.Forms.PictureBox();
+            this.startHwishPB = new System.Windows.Forms.PictureBox();
+            this.cartDotLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
@@ -143,6 +154,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.javawishPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bsnswishPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ahbanwishPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fbeffectwishPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.msgwishPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doglapanwishPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iutwishPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dopadetoxwishPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.startHwishPB)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -735,16 +756,16 @@
             this.label15.TabIndex = 53;
             this.label15.Text = "বিজনেস ব্লুপ্রিন্ট";
             // 
-            // label17
+            // gotwishPB
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(1144, 463);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(149, 19);
-            this.label17.TabIndex = 54;
-            this.label17.Text = "GAME OF THTONES";
+            this.gotwishPB.AutoSize = true;
+            this.gotwishPB.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gotwishPB.ForeColor = System.Drawing.Color.White;
+            this.gotwishPB.Location = new System.Drawing.Point(1144, 463);
+            this.gotwishPB.Name = "gotwishPB";
+            this.gotwishPB.Size = new System.Drawing.Size(150, 19);
+            this.gotwishPB.TabIndex = 54;
+            this.gotwishPB.Text = "GAME OF THRONES";
             // 
             // label18
             // 
@@ -930,7 +951,7 @@
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(559, 515);
+            this.label26.Location = new System.Drawing.Point(568, 515);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(56, 22);
             this.label26.TabIndex = 71;
@@ -941,7 +962,7 @@
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(733, 515);
+            this.label27.Location = new System.Drawing.Point(741, 515);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(56, 22);
             this.label27.TabIndex = 72;
@@ -952,7 +973,7 @@
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(1227, 512);
+            this.label28.Location = new System.Drawing.Point(1236, 512);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(56, 22);
             this.label28.TabIndex = 73;
@@ -963,7 +984,7 @@
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(866, 772);
+            this.label29.Location = new System.Drawing.Point(886, 772);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(56, 22);
             this.label29.TabIndex = 74;
@@ -974,7 +995,7 @@
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(1193, 772);
+            this.label30.Location = new System.Drawing.Point(1209, 772);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(56, 22);
             this.label30.TabIndex = 75;
@@ -985,7 +1006,7 @@
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(526, 772);
+            this.label31.Location = new System.Drawing.Point(541, 772);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(56, 22);
             this.label31.TabIndex = 76;
@@ -996,7 +1017,7 @@
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(1065, 514);
+            this.label32.Location = new System.Drawing.Point(1070, 514);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(56, 22);
             this.label32.TabIndex = 77;
@@ -1007,7 +1028,7 @@
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(1029, 772);
+            this.label33.Location = new System.Drawing.Point(1049, 772);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(56, 22);
             this.label33.TabIndex = 78;
@@ -1018,7 +1039,7 @@
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(697, 772);
+            this.label34.Location = new System.Drawing.Point(710, 772);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(56, 22);
             this.label34.TabIndex = 79;
@@ -1029,7 +1050,7 @@
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(892, 516);
+            this.label35.Location = new System.Drawing.Point(907, 516);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(56, 22);
             this.label35.TabIndex = 80;
@@ -1057,7 +1078,7 @@
             this.label37.BackColor = System.Drawing.Color.RoyalBlue;
             this.label37.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.ForeColor = System.Drawing.Color.White;
-            this.label37.Location = new System.Drawing.Point(487, 516);
+            this.label37.Location = new System.Drawing.Point(478, 516);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(40, 19);
             this.label37.TabIndex = 82;
@@ -1069,7 +1090,7 @@
             this.label38.BackColor = System.Drawing.Color.Crimson;
             this.label38.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.ForeColor = System.Drawing.Color.White;
-            this.label38.Location = new System.Drawing.Point(660, 515);
+            this.label38.Location = new System.Drawing.Point(650, 515);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(39, 19);
             this.label38.TabIndex = 83;
@@ -1082,7 +1103,7 @@
             this.label39.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label39.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.ForeColor = System.Drawing.Color.White;
-            this.label39.Location = new System.Drawing.Point(830, 516);
+            this.label39.Location = new System.Drawing.Point(823, 516);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(41, 19);
             this.label39.TabIndex = 84;
@@ -1094,7 +1115,7 @@
             this.label40.BackColor = System.Drawing.Color.DarkViolet;
             this.label40.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.ForeColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(996, 515);
+            this.label40.Location = new System.Drawing.Point(988, 515);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(39, 19);
             this.label40.TabIndex = 85;
@@ -1106,12 +1127,144 @@
             this.label41.BackColor = System.Drawing.Color.MediumVioletRed;
             this.label41.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.ForeColor = System.Drawing.Color.White;
-            this.label41.Location = new System.Drawing.Point(1156, 514);
+            this.label41.Location = new System.Drawing.Point(1150, 514);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(40, 19);
             this.label41.TabIndex = 86;
             this.label41.Text = "৪৫%";
             this.label41.Click += new System.EventHandler(this.label41_Click);
+            // 
+            // javawishPB
+            // 
+            this.javawishPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.javawishPB.Image = ((System.Drawing.Image)(resources.GetObject("javawishPB.Image")));
+            this.javawishPB.Location = new System.Drawing.Point(539, 510);
+            this.javawishPB.Name = "javawishPB";
+            this.javawishPB.Size = new System.Drawing.Size(23, 27);
+            this.javawishPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.javawishPB.TabIndex = 87;
+            this.javawishPB.TabStop = false;
+            this.javawishPB.Click += new System.EventHandler(this.javawishPB_Click);
+            // 
+            // bsnswishPB
+            // 
+            this.bsnswishPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bsnswishPB.Image = ((System.Drawing.Image)(resources.GetObject("bsnswishPB.Image")));
+            this.bsnswishPB.Location = new System.Drawing.Point(709, 508);
+            this.bsnswishPB.Name = "bsnswishPB";
+            this.bsnswishPB.Size = new System.Drawing.Size(23, 27);
+            this.bsnswishPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bsnswishPB.TabIndex = 88;
+            this.bsnswishPB.TabStop = false;
+            this.bsnswishPB.Click += new System.EventHandler(this.bsnswishPB_Click);
+            // 
+            // ahbanwishPB
+            // 
+            this.ahbanwishPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ahbanwishPB.Image = ((System.Drawing.Image)(resources.GetObject("ahbanwishPB.Image")));
+            this.ahbanwishPB.Location = new System.Drawing.Point(1020, 772);
+            this.ahbanwishPB.Name = "ahbanwishPB";
+            this.ahbanwishPB.Size = new System.Drawing.Size(23, 27);
+            this.ahbanwishPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ahbanwishPB.TabIndex = 90;
+            this.ahbanwishPB.TabStop = false;
+            this.ahbanwishPB.Click += new System.EventHandler(this.ahbanwishPB_Click);
+            // 
+            // fbeffectwishPB
+            // 
+            this.fbeffectwishPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.fbeffectwishPB.Image = ((System.Drawing.Image)(resources.GetObject("fbeffectwishPB.Image")));
+            this.fbeffectwishPB.Location = new System.Drawing.Point(857, 770);
+            this.fbeffectwishPB.Name = "fbeffectwishPB";
+            this.fbeffectwishPB.Size = new System.Drawing.Size(23, 27);
+            this.fbeffectwishPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.fbeffectwishPB.TabIndex = 91;
+            this.fbeffectwishPB.TabStop = false;
+            this.fbeffectwishPB.Click += new System.EventHandler(this.fbeffectwishPB_Click);
+            // 
+            // msgwishPB
+            // 
+            this.msgwishPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.msgwishPB.Image = ((System.Drawing.Image)(resources.GetObject("msgwishPB.Image")));
+            this.msgwishPB.Location = new System.Drawing.Point(681, 772);
+            this.msgwishPB.Name = "msgwishPB";
+            this.msgwishPB.Size = new System.Drawing.Size(23, 27);
+            this.msgwishPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.msgwishPB.TabIndex = 92;
+            this.msgwishPB.TabStop = false;
+            this.msgwishPB.Click += new System.EventHandler(this.pictureBox20_Click);
+            // 
+            // doglapanwishPB
+            // 
+            this.doglapanwishPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.doglapanwishPB.Image = ((System.Drawing.Image)(resources.GetObject("doglapanwishPB.Image")));
+            this.doglapanwishPB.Location = new System.Drawing.Point(512, 770);
+            this.doglapanwishPB.Name = "doglapanwishPB";
+            this.doglapanwishPB.Size = new System.Drawing.Size(23, 27);
+            this.doglapanwishPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.doglapanwishPB.TabIndex = 93;
+            this.doglapanwishPB.TabStop = false;
+            this.doglapanwishPB.Click += new System.EventHandler(this.doglapanwishPB_Click);
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
+            this.pictureBox22.Location = new System.Drawing.Point(1208, 509);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(23, 27);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox22.TabIndex = 94;
+            this.pictureBox22.TabStop = false;
+            this.pictureBox22.Click += new System.EventHandler(this.pictureBox22_Click);
+            // 
+            // iutwishPB
+            // 
+            this.iutwishPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iutwishPB.Image = ((System.Drawing.Image)(resources.GetObject("iutwishPB.Image")));
+            this.iutwishPB.Location = new System.Drawing.Point(1043, 511);
+            this.iutwishPB.Name = "iutwishPB";
+            this.iutwishPB.Size = new System.Drawing.Size(23, 27);
+            this.iutwishPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.iutwishPB.TabIndex = 95;
+            this.iutwishPB.TabStop = false;
+            this.iutwishPB.Click += new System.EventHandler(this.iutwishPB_Click);
+            // 
+            // dopadetoxwishPB
+            // 
+            this.dopadetoxwishPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dopadetoxwishPB.Image = ((System.Drawing.Image)(resources.GetObject("dopadetoxwishPB.Image")));
+            this.dopadetoxwishPB.Location = new System.Drawing.Point(880, 511);
+            this.dopadetoxwishPB.Name = "dopadetoxwishPB";
+            this.dopadetoxwishPB.Size = new System.Drawing.Size(23, 27);
+            this.dopadetoxwishPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.dopadetoxwishPB.TabIndex = 96;
+            this.dopadetoxwishPB.TabStop = false;
+            this.dopadetoxwishPB.Click += new System.EventHandler(this.dopadetoxwishPB_Click);
+            // 
+            // startHwishPB
+            // 
+            this.startHwishPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.startHwishPB.Image = ((System.Drawing.Image)(resources.GetObject("startHwishPB.Image")));
+            this.startHwishPB.Location = new System.Drawing.Point(1180, 771);
+            this.startHwishPB.Name = "startHwishPB";
+            this.startHwishPB.Size = new System.Drawing.Size(23, 27);
+            this.startHwishPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.startHwishPB.TabIndex = 89;
+            this.startHwishPB.TabStop = false;
+            this.startHwishPB.Click += new System.EventHandler(this.startHwishPB_Click);
+            // 
+            // cartDotLabel
+            // 
+            this.cartDotLabel.AutoSize = true;
+            this.cartDotLabel.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cartDotLabel.ForeColor = System.Drawing.Color.White;
+            this.cartDotLabel.Location = new System.Drawing.Point(994, 14);
+            this.cartDotLabel.Name = "cartDotLabel";
+            this.cartDotLabel.Size = new System.Drawing.Size(24, 31);
+            this.cartDotLabel.TabIndex = 98;
+            this.cartDotLabel.Text = "•";
+            this.cartDotLabel.Click += new System.EventHandler(this.cartDotLabel_Click);
             // 
             // firstForm
             // 
@@ -1119,6 +1272,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(25)))));
             this.ClientSize = new System.Drawing.Size(1300, 803);
+            this.Controls.Add(this.CartLabel);
+            this.Controls.Add(this.cartDotLabel);
+            this.Controls.Add(this.dopadetoxwishPB);
+            this.Controls.Add(this.iutwishPB);
+            this.Controls.Add(this.pictureBox22);
+            this.Controls.Add(this.doglapanwishPB);
+            this.Controls.Add(this.msgwishPB);
+            this.Controls.Add(this.fbeffectwishPB);
+            this.Controls.Add(this.ahbanwishPB);
+            this.Controls.Add(this.startHwishPB);
+            this.Controls.Add(this.bsnswishPB);
+            this.Controls.Add(this.javawishPB);
             this.Controls.Add(this.label41);
             this.Controls.Add(this.label40);
             this.Controls.Add(this.label39);
@@ -1143,7 +1308,7 @@
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
+            this.Controls.Add(this.gotwishPB);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label5);
@@ -1175,7 +1340,6 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.CartLabel);
             this.Controls.Add(this.WishLabel);
             this.Controls.Add(this.supportLabel);
             this.Controls.Add(this.label2);
@@ -1240,6 +1404,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.javawishPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bsnswishPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ahbanwishPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fbeffectwishPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.msgwishPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doglapanwishPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iutwishPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dopadetoxwishPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.startHwishPB)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1296,7 +1470,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label gotwishPB;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
@@ -1329,5 +1503,16 @@
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.PictureBox javawishPB;
+        private System.Windows.Forms.PictureBox bsnswishPB;
+        private System.Windows.Forms.PictureBox ahbanwishPB;
+        private System.Windows.Forms.PictureBox fbeffectwishPB;
+        private System.Windows.Forms.PictureBox msgwishPB;
+        private System.Windows.Forms.PictureBox doglapanwishPB;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox iutwishPB;
+        private System.Windows.Forms.PictureBox dopadetoxwishPB;
+        private System.Windows.Forms.PictureBox startHwishPB;
+        private System.Windows.Forms.Label cartDotLabel;
     }
 }

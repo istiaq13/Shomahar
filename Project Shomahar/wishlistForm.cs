@@ -28,5 +28,26 @@ namespace Project_Shomahar
         {
 
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            firstForm abc = new firstForm();
+            abc.ShowDialog();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            browseForm abc = new browseForm();
+            abc.ShowDialog();
+            this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            cartForm abc = new cartForm();
+            abc.ShowDialog();
+            this.Hide();
+        }
     }
 }

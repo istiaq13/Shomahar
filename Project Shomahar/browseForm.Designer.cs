@@ -198,11 +198,11 @@
             // 
             this.dataGridView9.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(29)))));
             this.dataGridView9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView9.Location = new System.Drawing.Point(990, 9);
+            this.dataGridView9.Location = new System.Drawing.Point(990, -11);
             this.dataGridView9.Name = "dataGridView9";
             this.dataGridView9.RowHeadersWidth = 51;
             this.dataGridView9.RowTemplate.Height = 24;
-            this.dataGridView9.Size = new System.Drawing.Size(10, 112);
+            this.dataGridView9.Size = new System.Drawing.Size(10, 162);
             this.dataGridView9.TabIndex = 44;
             // 
             // label7
@@ -577,7 +577,6 @@
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.dataGridView9);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -588,6 +587,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView10);
             this.Controls.Add(this.label17);
+            this.Controls.Add(this.dataGridView9);
             this.ForeColor = System.Drawing.Color.Gray;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

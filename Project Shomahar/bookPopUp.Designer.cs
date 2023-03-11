@@ -51,6 +51,7 @@
             this.dopadetoxPB = new System.Windows.Forms.PictureBox();
             this.statupHpb = new System.Windows.Forms.PictureBox();
             this.gotPB = new System.Windows.Forms.PictureBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.iutPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fbefctPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.javaPB)).BeginInit();
@@ -204,9 +205,8 @@
             this.priceLabel.ForeColor = System.Drawing.Color.White;
             this.priceLabel.Location = new System.Drawing.Point(415, 256);
             this.priceLabel.Name = "priceLabel";
-            this.priceLabel.Size = new System.Drawing.Size(61, 24);
+            this.priceLabel.Size = new System.Drawing.Size(0, 24);
             this.priceLabel.TabIndex = 12;
-            this.priceLabel.Text = "label7";
             // 
             // fbefctPB
             // 
@@ -298,12 +298,33 @@
             this.gotPB.TabIndex = 21;
             this.gotPB.TabStop = false;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.comboBox1.Location = new System.Drawing.Point(557, 329);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 27);
+            this.comboBox1.TabIndex = 22;
+            // 
             // bookPopUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(25)))));
             this.ClientSize = new System.Drawing.Size(798, 525);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.gotPB);
             this.Controls.Add(this.statupHpb);
             this.Controls.Add(this.dopadetoxPB);
@@ -369,5 +390,6 @@
         private System.Windows.Forms.PictureBox dopadetoxPB;
         private System.Windows.Forms.PictureBox statupHpb;
         private System.Windows.Forms.PictureBox gotPB;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

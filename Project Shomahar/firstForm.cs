@@ -32,6 +32,7 @@ namespace Project_Shomahar
             label8.Hide();
             label9.Hide();
             label10.Hide();
+            cartDotLabel.Hide();
             radioButton1.Checked = true;
         }
 
@@ -513,8 +514,62 @@ namespace Project_Shomahar
 
         private void label5_Click_1(object sender, EventArgs e)
         {
-            bookPopUp abc = new bookPopUp();
-            abc.ShowDialog();
+           
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("                  Added To Wishlist.                ");
+        }
+
+        private void javawishPB_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("                  Added To Wishlist.                ");
+        }
+
+        private void bsnswishPB_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("                  Added To Wishlist.                ");
+        }
+
+        private void dopadetoxwishPB_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("                  Added To Wishlist.                ");
+        }
+
+        private void iutwishPB_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("                  Added To Wishlist.                ");
+        }
+
+        private void pictureBox22_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("                  Added To Wishlist.                ");
+        }
+
+        private void doglapanwishPB_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("                  Added To Wishlist.                ");
+        }
+
+        private void fbeffectwishPB_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("                  Added To Wishlist.                ");
+        }
+
+        private void ahbanwishPB_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("                  Added To Wishlist.                ");
+        }
+
+        private void startHwishPB_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("                  Added To Wishlist.                ");
+        }
+
+        private void cartDotLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
