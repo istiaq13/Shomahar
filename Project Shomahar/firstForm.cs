@@ -13,7 +13,7 @@ namespace Project_Shomahar
 {
     public partial class firstForm : Form
     {
-        public static string bookName, bookID;
+        public static int bookid;
         public firstForm()
         {
             InitializeComponent();
@@ -397,6 +397,7 @@ namespace Project_Shomahar
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
+            bookid = 2;
             bookPopUp abc = new bookPopUp();
             abc.ShowDialog();
         }
@@ -413,58 +414,64 @@ namespace Project_Shomahar
 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
+            bookid = 1;
             bookPopUp abc = new bookPopUp();
             abc.ShowDialog();
         }
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
+            bookid = 5;
             bookPopUp abc = new bookPopUp();
             abc.ShowDialog();
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
+            bookid = 3;
             bookPopUp abc = new bookPopUp();
             abc.ShowDialog();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
+            bookid = 4;
             bookPopUp abc = new bookPopUp();
             abc.ShowDialog();
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
+            bookid = 6;
             bookPopUp abc = new bookPopUp();
             abc.ShowDialog();
-            bookID = "a";
+           
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
+            bookid = 7;
             bookPopUp abc = new bookPopUp();
             abc.ShowDialog();
-
-            bookName = label22.Text = "MESSAGE";
-            bookID = "b";
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
+            bookid = 8;
             bookPopUp abc = new bookPopUp();
             abc.ShowDialog();
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
         {
+            bookid = 9;
             bookPopUp abc = new bookPopUp();
             abc.ShowDialog();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
+            bookid = 10;
             bookPopUp abc = new bookPopUp();
             abc.ShowDialog();
         }
@@ -477,7 +484,6 @@ namespace Project_Shomahar
         private void label36_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=XwUAxv9jDds");
-            //System.Diagnostics.Process.Start("https://i.ytimg.com/vi/4S89wxmtWRE/hqdefault.jpg");
         }
 
         private void label36_MouseHover(object sender, EventArgs e)
@@ -491,6 +497,16 @@ namespace Project_Shomahar
         }
 
         private void dataGridView17_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label41_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label38_Click(object sender, EventArgs e)
         {
 
         }

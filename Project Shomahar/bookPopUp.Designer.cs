@@ -39,9 +39,9 @@
             this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.Namelabel = new System.Windows.Forms.Label();
+            this.Authorlabel = new System.Windows.Forms.Label();
+            this.priceLabel = new System.Windows.Forms.Label();
             this.fbefctPB = new System.Windows.Forms.PictureBox();
             this.javaPB = new System.Windows.Forms.PictureBox();
             this.msgPB = new System.Windows.Forms.PictureBox();
@@ -50,7 +50,7 @@
             this.ahbanPB = new System.Windows.Forms.PictureBox();
             this.dopadetoxPB = new System.Windows.Forms.PictureBox();
             this.statupHpb = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.gotPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.iutPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fbefctPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.javaPB)).BeginInit();
@@ -60,7 +60,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ahbanPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dopadetoxPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.statupHpb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gotPB)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -177,36 +177,36 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Quantity  : ";
             // 
-            // label5
+            // Namelabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(413, 123);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 24);
-            this.label5.TabIndex = 10;
+            this.Namelabel.AutoSize = true;
+            this.Namelabel.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Namelabel.ForeColor = System.Drawing.Color.White;
+            this.Namelabel.Location = new System.Drawing.Point(413, 123);
+            this.Namelabel.Name = "Namelabel";
+            this.Namelabel.Size = new System.Drawing.Size(0, 24);
+            this.Namelabel.TabIndex = 10;
             // 
-            // label6
+            // Authorlabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(415, 195);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 24);
-            this.label6.TabIndex = 11;
+            this.Authorlabel.AutoSize = true;
+            this.Authorlabel.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Authorlabel.ForeColor = System.Drawing.Color.White;
+            this.Authorlabel.Location = new System.Drawing.Point(415, 195);
+            this.Authorlabel.Name = "Authorlabel";
+            this.Authorlabel.Size = new System.Drawing.Size(0, 24);
+            this.Authorlabel.TabIndex = 11;
             // 
-            // label7
+            // priceLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(415, 256);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(61, 24);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "label7";
+            this.priceLabel.AutoSize = true;
+            this.priceLabel.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.priceLabel.ForeColor = System.Drawing.Color.White;
+            this.priceLabel.Location = new System.Drawing.Point(415, 256);
+            this.priceLabel.Name = "priceLabel";
+            this.priceLabel.Size = new System.Drawing.Size(61, 24);
+            this.priceLabel.TabIndex = 12;
+            this.priceLabel.Text = "label7";
             // 
             // fbefctPB
             // 
@@ -288,15 +288,15 @@
             this.statupHpb.TabIndex = 20;
             this.statupHpb.TabStop = false;
             // 
-            // pictureBox10
+            // gotPB
             // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(1507, 19);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(226, 261);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 21;
-            this.pictureBox10.TabStop = false;
+            this.gotPB.Image = ((System.Drawing.Image)(resources.GetObject("gotPB.Image")));
+            this.gotPB.Location = new System.Drawing.Point(53, 107);
+            this.gotPB.Name = "gotPB";
+            this.gotPB.Size = new System.Drawing.Size(226, 261);
+            this.gotPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gotPB.TabIndex = 21;
+            this.gotPB.TabStop = false;
             // 
             // bookPopUp
             // 
@@ -304,7 +304,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(25)))));
             this.ClientSize = new System.Drawing.Size(798, 525);
-            this.Controls.Add(this.pictureBox10);
+            this.Controls.Add(this.gotPB);
             this.Controls.Add(this.statupHpb);
             this.Controls.Add(this.dopadetoxPB);
             this.Controls.Add(this.ahbanPB);
@@ -313,9 +313,9 @@
             this.Controls.Add(this.msgPB);
             this.Controls.Add(this.javaPB);
             this.Controls.Add(this.fbefctPB);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.priceLabel);
+            this.Controls.Add(this.Authorlabel);
+            this.Controls.Add(this.Namelabel);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button4);
@@ -339,7 +339,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ahbanPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dopadetoxPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.statupHpb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gotPB)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -357,9 +357,9 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label Namelabel;
+        private System.Windows.Forms.Label Authorlabel;
+        private System.Windows.Forms.Label priceLabel;
         private System.Windows.Forms.PictureBox fbefctPB;
         private System.Windows.Forms.PictureBox javaPB;
         private System.Windows.Forms.PictureBox msgPB;
@@ -368,6 +368,6 @@
         private System.Windows.Forms.PictureBox ahbanPB;
         private System.Windows.Forms.PictureBox dopadetoxPB;
         private System.Windows.Forms.PictureBox statupHpb;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox gotPB;
     }
 }

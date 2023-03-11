@@ -1074,6 +1074,7 @@
             this.label38.Size = new System.Drawing.Size(39, 19);
             this.label38.TabIndex = 83;
             this.label38.Text = "৪০%";
+            this.label38.Click += new System.EventHandler(this.label38_Click);
             // 
             // label39
             // 
@@ -1110,6 +1111,7 @@
             this.label41.Size = new System.Drawing.Size(40, 19);
             this.label41.TabIndex = 86;
             this.label41.Text = "৪৫%";
+            this.label41.Click += new System.EventHandler(this.label41_Click);
             // 
             // firstForm
             // 
