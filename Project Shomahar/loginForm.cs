@@ -20,6 +20,7 @@ namespace Project_Shomahar
         private void loginForm_Load(object sender, EventArgs e)
         {
             loginbtn.Focus();
+            MessageBox.Show("Login Here");
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
