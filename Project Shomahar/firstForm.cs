@@ -26,12 +26,19 @@ namespace Project_Shomahar
 
         private void firstForm_Load(object sender, EventArgs e)
         {
+            dataGridView10.Hide();
             dataGrid.Hide();
             label6.Hide();
             label7.Hide();
             label8.Hide();
             label9.Hide();
             label10.Hide();
+            label161.Hide();
+            label171.Hide();
+            label162.Hide();
+            pictureBox161.Hide();
+            pictureBox171.Hide();
+
             cartDotLabel.Hide();
             radioButton1.Checked = true;
         }
@@ -570,6 +577,43 @@ namespace Project_Shomahar
         private void cartDotLabel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("NO DISCOUNT! FULL TK DIYE KINEN!");
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if(textBox1.Focused)
+            {
+                dataGridView10.Show();
+            }
+            else if(textBox1.Text.Length == 0)
+            {
+                dataGridView10.Hide();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(textBox1.Text=="Java" || textBox1.Text == "JAVA" || textBox1.Text == "java")
+            {
+                pictureBox161.Show();
+                label161.Show();
+                label171.Show();
+            }
+            else if (textBox1.Text == "Business" || textBox1.Text == "business")
+            {
+                pictureBox171.Show();
+                label162.Show();
+                label171.Show();
+            }
+            else
+            {
+                MessageBox.Show("No Result Found!");
+            }
         }
     }
 }
