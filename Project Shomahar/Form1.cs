@@ -25,7 +25,7 @@ namespace Project_Shomahar
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            progressBar1.Increment(3564);
+            progressBar1.Increment(3);
             barPercentageLabel.Text = progressBar1.Value.ToString() + " %";
             if (progressBar1.Value == 100 ) 
              {

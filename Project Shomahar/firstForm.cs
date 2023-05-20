@@ -92,9 +92,7 @@ namespace Project_Shomahar
 
         private void label7_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            settingForm abc = new settingForm();
-            abc.ShowDialog();
+            MessageBox.Show("Not Available Right Now!");
         }
 
         private void label10_Click(object sender, EventArgs e)
@@ -104,9 +102,7 @@ namespace Project_Shomahar
 
         private void label6_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            profileForm abc = new profileForm();
-            abc.ShowDialog();
+            MessageBox.Show($"Logged in as : {GlobalClass._userName}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -183,9 +179,7 @@ namespace Project_Shomahar
 
         private void label10_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-            oderHistoryForm abc = new oderHistoryForm();
-            abc.ShowDialog();
+            MessageBox.Show("Not Available Right Now!");
         }
 
         private void label10_MouseHover(object sender, EventArgs e)
@@ -315,7 +309,7 @@ namespace Project_Shomahar
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-           /* progressBar1.Increment(1);
+            progressBar1.Increment(1);
             if (progressBar1.Value == 5)
             {
                radioButton2.Checked = true;
@@ -395,7 +389,7 @@ namespace Project_Shomahar
             if (progressBar1.Value == 100)
             {
                 radioButton3.Checked = true;
-            }*/
+            }
         }
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)

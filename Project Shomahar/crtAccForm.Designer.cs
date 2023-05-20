@@ -56,31 +56,35 @@
             // 
             // passTextBox
             // 
-            this.passTextBox.Location = new System.Drawing.Point(690, 433);
+            this.passTextBox.Location = new System.Drawing.Point(776, 541);
+            this.passTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.passTextBox.Name = "passTextBox";
-            this.passTextBox.Size = new System.Drawing.Size(230, 22);
+            this.passTextBox.Size = new System.Drawing.Size(258, 26);
             this.passTextBox.TabIndex = 0;
             // 
             // numTextBox
             // 
-            this.numTextBox.Location = new System.Drawing.Point(690, 240);
+            this.numTextBox.Location = new System.Drawing.Point(776, 300);
+            this.numTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.numTextBox.Name = "numTextBox";
-            this.numTextBox.Size = new System.Drawing.Size(446, 22);
+            this.numTextBox.Size = new System.Drawing.Size(501, 26);
             this.numTextBox.TabIndex = 1;
             this.numTextBox.TextChanged += new System.EventHandler(this.numTextBox_TextChanged);
             // 
             // FnameTextBox
             // 
-            this.FnameTextBox.Location = new System.Drawing.Point(690, 110);
+            this.FnameTextBox.Location = new System.Drawing.Point(776, 138);
+            this.FnameTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.FnameTextBox.Name = "FnameTextBox";
-            this.FnameTextBox.Size = new System.Drawing.Size(219, 22);
+            this.FnameTextBox.Size = new System.Drawing.Size(246, 26);
             this.FnameTextBox.TabIndex = 2;
             // 
             // mailTextBox
             // 
-            this.mailTextBox.Location = new System.Drawing.Point(690, 175);
+            this.mailTextBox.Location = new System.Drawing.Point(776, 219);
+            this.mailTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mailTextBox.Name = "mailTextBox";
-            this.mailTextBox.Size = new System.Drawing.Size(446, 22);
+            this.mailTextBox.Size = new System.Drawing.Size(501, 26);
             this.mailTextBox.TabIndex = 3;
             // 
             // newAccBtn
@@ -89,12 +93,14 @@
             this.newAccBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.newAccBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newAccBtn.ForeColor = System.Drawing.Color.White;
-            this.newAccBtn.Location = new System.Drawing.Point(762, 550);
+            this.newAccBtn.Location = new System.Drawing.Point(857, 688);
+            this.newAccBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.newAccBtn.Name = "newAccBtn";
-            this.newAccBtn.Size = new System.Drawing.Size(207, 49);
+            this.newAccBtn.Size = new System.Drawing.Size(233, 61);
             this.newAccBtn.TabIndex = 4;
             this.newAccBtn.Text = "Sign Up";
             this.newAccBtn.UseVisualStyleBackColor = false;
+            this.newAccBtn.Click += new System.EventHandler(this.newAccBtn_Click);
             // 
             // label1
             // 
@@ -102,25 +108,27 @@
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label1.Location = new System.Drawing.Point(958, 624);
+            this.label1.Location = new System.Drawing.Point(1078, 780);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 31);
+            this.label1.Size = new System.Drawing.Size(95, 37);
             this.label1.TabIndex = 5;
             this.label1.Text = "Login";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // LnametextBox
             // 
-            this.LnametextBox.Location = new System.Drawing.Point(938, 110);
+            this.LnametextBox.Location = new System.Drawing.Point(1055, 138);
+            this.LnametextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.LnametextBox.Name = "LnametextBox";
-            this.LnametextBox.Size = new System.Drawing.Size(198, 22);
+            this.LnametextBox.Size = new System.Drawing.Size(222, 26);
             this.LnametextBox.TabIndex = 6;
             // 
             // UserNametextBox
             // 
-            this.UserNametextBox.Location = new System.Drawing.Point(690, 364);
+            this.UserNametextBox.Location = new System.Drawing.Point(776, 455);
+            this.UserNametextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.UserNametextBox.Name = "UserNametextBox";
-            this.UserNametextBox.Size = new System.Drawing.Size(230, 22);
+            this.UserNametextBox.Size = new System.Drawing.Size(258, 26);
             this.UserNametextBox.TabIndex = 7;
             this.UserNametextBox.TextChanged += new System.EventHandler(this.UserNametextBox_TextChanged);
             // 
@@ -130,9 +138,10 @@
             this.radioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.Color.White;
-            this.radioButton1.Location = new System.Drawing.Point(690, 302);
+            this.radioButton1.Location = new System.Drawing.Point(776, 378);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(63, 23);
+            this.radioButton1.Size = new System.Drawing.Size(74, 26);
             this.radioButton1.TabIndex = 8;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Male";
@@ -144,9 +153,10 @@
             this.radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.ForeColor = System.Drawing.Color.White;
-            this.radioButton2.Location = new System.Drawing.Point(800, 302);
+            this.radioButton2.Location = new System.Drawing.Point(900, 378);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(78, 23);
+            this.radioButton2.Size = new System.Drawing.Size(92, 26);
             this.radioButton2.TabIndex = 9;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Female";
@@ -159,9 +169,9 @@
             this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(853, 498);
+            this.label2.Location = new System.Drawing.Point(960, 622);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(175, 19);
+            this.label2.Size = new System.Drawing.Size(214, 25);
             this.label2.TabIndex = 10;
             this.label2.Text = "Terms And Conditions";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -174,9 +184,10 @@
             this.checkBox2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.checkBox2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox2.ForeColor = System.Drawing.Color.White;
-            this.checkBox2.Location = new System.Drawing.Point(690, 497);
+            this.checkBox2.Location = new System.Drawing.Point(776, 621);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(144, 23);
+            this.checkBox2.Size = new System.Drawing.Size(174, 29);
             this.checkBox2.TabIndex = 12;
             this.checkBox2.Text = "I Agree To The ";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -186,9 +197,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(686, 630);
+            this.label3.Location = new System.Drawing.Point(772, 788);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(243, 24);
+            this.label3.Size = new System.Drawing.Size(299, 28);
             this.label3.TabIndex = 13;
             this.label3.Text = "Already Have An Account ?";
             // 
@@ -197,9 +208,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(683, 30);
+            this.label4.Location = new System.Drawing.Point(768, 38);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(324, 40);
+            this.label4.Size = new System.Drawing.Size(392, 47);
             this.label4.TabIndex = 14;
             this.label4.Text = "Create New Account";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -209,9 +220,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(686, 86);
+            this.label5.Location = new System.Drawing.Point(772, 108);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 19);
+            this.label5.Size = new System.Drawing.Size(99, 22);
             this.label5.TabIndex = 15;
             this.label5.Text = "First Name";
             // 
@@ -220,9 +231,9 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(686, 407);
+            this.label6.Location = new System.Drawing.Point(772, 509);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(134, 19);
+            this.label6.Size = new System.Drawing.Size(163, 22);
             this.label6.TabIndex = 16;
             this.label6.Text = "Re-write Password";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -232,9 +243,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(686, 338);
+            this.label7.Location = new System.Drawing.Point(772, 422);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 19);
+            this.label7.Size = new System.Drawing.Size(89, 22);
             this.label7.TabIndex = 17;
             this.label7.Text = "Password";
             // 
@@ -243,9 +254,9 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(686, 216);
+            this.label8.Location = new System.Drawing.Point(772, 270);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(110, 19);
+            this.label8.Size = new System.Drawing.Size(133, 22);
             this.label8.TabIndex = 18;
             this.label8.Text = "Phone Number";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -255,9 +266,9 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(686, 278);
+            this.label9.Location = new System.Drawing.Point(772, 348);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 19);
+            this.label9.Size = new System.Drawing.Size(68, 22);
             this.label9.TabIndex = 19;
             this.label9.Text = "Gender";
             // 
@@ -266,9 +277,9 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(686, 150);
+            this.label10.Location = new System.Drawing.Point(772, 188);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(45, 19);
+            this.label10.Size = new System.Drawing.Size(54, 22);
             this.label10.TabIndex = 20;
             this.label10.Text = "Email";
             // 
@@ -277,28 +288,29 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(934, 86);
+            this.label11.Location = new System.Drawing.Point(1051, 108);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(79, 19);
+            this.label11.Size = new System.Drawing.Size(96, 22);
             this.label11.TabIndex = 21;
             this.label11.Text = "Last Name";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(29, 30);
+            this.pictureBox1.Location = new System.Drawing.Point(33, 38);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(616, 569);
+            this.pictureBox1.Size = new System.Drawing.Size(693, 711);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
             // 
             // crtAccForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(25)))));
-            this.ClientSize = new System.Drawing.Size(1232, 699);
+            this.ClientSize = new System.Drawing.Size(1386, 874);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -323,6 +335,7 @@
             this.Controls.Add(this.passTextBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "crtAccForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

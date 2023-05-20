@@ -94,6 +94,7 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="GlobalClass.cs" />
     <Compile Include="loginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +121,7 @@
     <Compile Include="settingForm.Designer.cs">
       <DependentUpon>settingForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="user.cs" />
     <Compile Include="wishlistForm.cs">
       <SubType>Form</SubType>
     </Compile>

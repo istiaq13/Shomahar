@@ -44,3 +44,26 @@ C:\Users\USER\source\repos\Shomahar\Project Shomahar\obj\Debug\Project Shomahar.
 C:\Users\USER\source\repos\Shomahar\Project Shomahar\obj\Debug\Project Shomahar.csproj.CoreCompileInputs.cache
 C:\Users\USER\source\repos\Shomahar\Project Shomahar\obj\Debug\Project Shomahar.exe
 C:\Users\USER\source\repos\Shomahar\Project Shomahar\obj\Debug\Project Shomahar.pdb
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\bin\Debug\Project Shomahar.exe.config
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\bin\Debug\Project Shomahar.exe
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\bin\Debug\Project Shomahar.pdb
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project Shomahar.csproj.AssemblyReference.cache
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project Shomahar.csproj.SuggestedBindingRedirects.cache
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.bookPopUp.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.browseForm.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.cartForm.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.crtAccForm.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.firstForm.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.forgetPassForm.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.Form1.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.Form2.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.loginForm.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.oderHistoryForm.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.profileForm.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.Properties.Resources.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.settingForm.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project_Shomahar.wishlistForm.resources
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project Shomahar.csproj.GenerateResource.cache
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project Shomahar.csproj.CoreCompileInputs.cache
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project Shomahar.exe
+C:\Users\RC\Source\Repos\Shomahar\Project Shomahar\obj\Debug\Project Shomahar.pdb
