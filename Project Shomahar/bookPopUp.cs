@@ -22,7 +22,9 @@ namespace Project_Shomahar
         
         private void bookPopUp_Load(object sender, EventArgs e)
         {
-           
+            button2.BackColor = Color.Gray;
+            button2.ForeColor = Color.White;
+            button2.Enabled = false;
             textBox1.Text = Convert.ToString(i);
             ControlBox = false;
             textBox1.Text= "0";
@@ -115,6 +117,7 @@ namespace Project_Shomahar
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
+            MessageBox.Show("Your Order has been placed successfully");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -206,6 +209,21 @@ namespace Project_Shomahar
         private void label6_MouseLeave(object sender, EventArgs e)
         {
             label6.ForeColor = Color.Lavender;
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBox1.Checked)
+            {
+                button2.Enabled = true;
+                button2.BackColor = Color.Green;
+            }
+            else
+            {
+                button2.Enabled = false;
+                button2.BackColor = Color.Gray;
+                button2.ForeColor = Color.White;
+            }
         }
     }
 }

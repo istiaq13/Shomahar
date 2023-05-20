@@ -58,7 +58,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView9 = new System.Windows.Forms.DataGridView();
             this.dataGridView10 = new System.Windows.Forms.DataGridView();
-            this.label16 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -123,6 +122,12 @@
             this.dopadetoxwishPB = new System.Windows.Forms.PictureBox();
             this.startHwishPB = new System.Windows.Forms.PictureBox();
             this.cartDotLabel = new System.Windows.Forms.Label();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox161 = new System.Windows.Forms.PictureBox();
+            this.label161 = new System.Windows.Forms.Label();
+            this.label171 = new System.Windows.Forms.Label();
+            this.pictureBox171 = new System.Windows.Forms.PictureBox();
+            this.label162 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
@@ -164,15 +169,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.iutwishPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dopadetoxwishPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.startHwishPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox161)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox171)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(178, 28);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(270, 24);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -500,6 +510,7 @@
             this.button1.TabIndex = 32;
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView9
             // 
@@ -517,24 +528,13 @@
             // 
             this.dataGridView10.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(29)))));
             this.dataGridView10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView10.Location = new System.Drawing.Point(22, 7);
+            this.dataGridView10.Location = new System.Drawing.Point(178, 99);
             this.dataGridView10.Name = "dataGridView10";
             this.dataGridView10.RowHeadersWidth = 51;
             this.dataGridView10.RowTemplate.Height = 24;
-            this.dataGridView10.Size = new System.Drawing.Size(118, 107);
+            this.dataGridView10.Size = new System.Drawing.Size(270, 278);
             this.dataGridView10.TabIndex = 34;
             this.dataGridView10.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView10_CellContentClick);
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(56, 54);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(48, 19);
-            this.label16.TabIndex = 35;
-            this.label16.Text = "LOGO";
             // 
             // progressBar1
             // 
@@ -589,6 +589,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 39;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // dataGridView2
             // 
@@ -1266,12 +1267,84 @@
             this.cartDotLabel.Text = "•";
             this.cartDotLabel.Click += new System.EventHandler(this.cartDotLabel_Click);
             // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
+            this.pictureBox15.Location = new System.Drawing.Point(22, 7);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(118, 107);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox15.TabIndex = 99;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox161
+            // 
+            this.pictureBox161.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox161.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox161.Image")));
+            this.pictureBox161.Location = new System.Drawing.Point(182, 108);
+            this.pictureBox161.Name = "pictureBox161";
+            this.pictureBox161.Size = new System.Drawing.Size(130, 149);
+            this.pictureBox161.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox161.TabIndex = 100;
+            this.pictureBox161.TabStop = false;
+            // 
+            // label161
+            // 
+            this.label161.AutoSize = true;
+            this.label161.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label161.ForeColor = System.Drawing.Color.White;
+            this.label161.Location = new System.Drawing.Point(317, 122);
+            this.label161.Name = "label161";
+            this.label161.Size = new System.Drawing.Size(124, 19);
+            this.label161.TabIndex = 101;
+            this.label161.Text = "JAVA - ORACLE";
+            // 
+            // label171
+            // 
+            this.label171.AutoSize = true;
+            this.label171.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label171.ForeColor = System.Drawing.Color.White;
+            this.label171.Location = new System.Drawing.Point(317, 156);
+            this.label171.Name = "label171";
+            this.label171.Size = new System.Drawing.Size(56, 22);
+            this.label171.TabIndex = 102;
+            this.label171.Text = "৳ ১৭০";
+            // 
+            // pictureBox171
+            // 
+            this.pictureBox171.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox171.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox171.Image")));
+            this.pictureBox171.Location = new System.Drawing.Point(178, 108);
+            this.pictureBox171.Name = "pictureBox171";
+            this.pictureBox171.Size = new System.Drawing.Size(130, 149);
+            this.pictureBox171.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox171.TabIndex = 103;
+            this.pictureBox171.TabStop = false;
+            // 
+            // label162
+            // 
+            this.label162.AutoSize = true;
+            this.label162.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label162.ForeColor = System.Drawing.Color.White;
+            this.label162.Location = new System.Drawing.Point(319, 122);
+            this.label162.Name = "label162";
+            this.label162.Size = new System.Drawing.Size(122, 19);
+            this.label162.TabIndex = 104;
+            this.label162.Text = "বিজনেস ব্লুপ্রিন্ট";
+            // 
             // firstForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(25)))));
             this.ClientSize = new System.Drawing.Size(1300, 803);
+            this.Controls.Add(this.label162);
+            this.Controls.Add(this.pictureBox171);
+            this.Controls.Add(this.label171);
+            this.Controls.Add(this.label161);
+            this.Controls.Add(this.pictureBox161);
+            this.Controls.Add(this.dataGridView10);
+            this.Controls.Add(this.pictureBox15);
             this.Controls.Add(this.CartLabel);
             this.Controls.Add(this.cartDotLabel);
             this.Controls.Add(this.dopadetoxwishPB);
@@ -1323,8 +1396,6 @@
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.dataGridView2);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.dataGridView10);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.radioButton3);
@@ -1414,6 +1485,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.iutwishPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dopadetoxwishPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.startHwishPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox161)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox171)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1449,7 +1523,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView9;
         private System.Windows.Forms.DataGridView dataGridView10;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
@@ -1514,5 +1587,11 @@
         private System.Windows.Forms.PictureBox dopadetoxwishPB;
         private System.Windows.Forms.PictureBox startHwishPB;
         private System.Windows.Forms.Label cartDotLabel;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pictureBox161;
+        private System.Windows.Forms.Label label161;
+        private System.Windows.Forms.Label label171;
+        private System.Windows.Forms.PictureBox pictureBox171;
+        private System.Windows.Forms.Label label162;
     }
 }
