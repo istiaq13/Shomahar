@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,9 +18,12 @@ namespace Project_Shomahar
         {
             InitializeComponent();
         }
-
+        public static long i = 0;
+        
         private void bookPopUp_Load(object sender, EventArgs e)
         {
+           
+            textBox1.Text = Convert.ToString(i);
             ControlBox = false;
             textBox1.Text= "0";
 
@@ -103,6 +107,7 @@ namespace Project_Shomahar
                 Namelabel.Text = "The $100 Startup";
                 Authorlabel.Text = "Chris Guillebeau";
                 priceLabel.Text = "699 BDT";
+
                 statupHpb.Show();
             }
         }
@@ -119,12 +124,88 @@ namespace Project_Shomahar
 
         private void button4_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "0";
-            for(int i=1; i < 10; i++)
+            i++;
+            
+            if(i<6)
             {
-                textBox1.Text = textBox1.Text + i;
-
+                textBox1.Text = Convert.ToString(i);
+                label6.Text = "See Total Price";
             }
+            else
+            {
+                MessageBox.Show("Sorry! We have only 5 books in stock");
+            }
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+            i--;
+
+            if (i>=0)
+            {
+                textBox1.Text = Convert.ToString(i-1);
+                label6.Text = "See Total Price";
+            }
+            else
+            {
+               
+            }
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            if ((connectID = 1) == firstForm.bookid)
+            {
+                label6.Text = (Convert.ToString(170 * (Convert.ToInt32(textBox1.Text)))) + " " + "BDT";
+            }
+            else if ((connectID = 2) == firstForm.bookid)
+            {
+                label6.Text = (Convert.ToString(405 * (Convert.ToInt32(textBox1.Text)))) + " " + "BDT";
+            }
+            else if ((connectID = 3) == firstForm.bookid)
+            {
+                label6.Text = (Convert.ToString(599 * (Convert.ToInt32(textBox1.Text)))) + " " + "BDT";
+            }
+            else if ((connectID = 4) == firstForm.bookid)
+            {
+                label6.Text = (Convert.ToString(190 * (Convert.ToInt32(textBox1.Text)))) + " " + "BDT";
+            }
+            else if ((connectID = 5) == firstForm.bookid)
+            {
+                label6.Text = (Convert.ToString(999 * (Convert.ToInt32(textBox1.Text)))) + " " + "BDT";
+            }
+            else if ((connectID = 6) == firstForm.bookid)
+            {
+                label6.Text = (Convert.ToString(799 * (Convert.ToInt32(textBox1.Text)))) + " " + "BDT";
+            }
+            else if ((connectID = 7) == firstForm.bookid)
+            {
+                label6.Text = (Convert.ToString(199 * (Convert.ToInt32(textBox1.Text)))) + " " + "BDT";
+            }
+            else if ((connectID = 8) == firstForm.bookid)
+            {
+                label6.Text = (Convert.ToString(999 * (Convert.ToInt32(textBox1.Text)))) + " " + "BDT";
+            }
+            else if ((connectID = 9) == firstForm.bookid)
+            {
+                label6.Text = (Convert.ToString(199 * (Convert.ToInt32(textBox1.Text)))) + " " + "BDT";
+            }
+            else if ((connectID = 10) == firstForm.bookid)
+            {
+                label6.Text = (Convert.ToString(699 * (Convert.ToInt32(textBox1.Text)))) + " " + "BDT";
+            }
+        }
+
+        private void label6_MouseHover(object sender, EventArgs e)
+        {
+            label6.ForeColor = Color.LawnGreen;
+        }
+
+        private void label6_MouseLeave(object sender, EventArgs e)
+        {
+            label6.ForeColor = Color.Lavender;
         }
     }
 }
