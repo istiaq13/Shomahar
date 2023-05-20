@@ -64,5 +64,10 @@ namespace Project_Shomahar
             abc.ShowDialog();
             this.Hide();
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
